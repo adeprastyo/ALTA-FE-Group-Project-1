@@ -1,0 +1,378 @@
+:root{
+    --color1 : #19345E;
+    --color2 : #E7EBFC;
+}
+
+h1,h2,h3,h4,h5{
+    color: var(--color1) !important;
+}
+.nav-style{
+    margin-left: 5rem;
+}
+.headline h1{
+    font-size: 64px;
+}
+
+.kolom1 p{
+    font-size: 42px;
+}
+.gbr-sec4{
+    width: 380px;
+    height: 450px;
+}
+.proccess ul li{
+    position: relative;
+}
+.proccess{
+    border-top: 2px dashed var(--color1);
+    position: relative;
+}
+.proccess-4{
+    border-top: none;
+}
+.proccess::before{
+    content: '';
+    width: 24px;
+    height:24px;
+    background-color: var(--color1);
+    position: absolute;
+    top: -9%;
+    border-radius: 50%;
+}
+.logo-3{
+    background-color: var(--color2);
+    width: 72px;
+    height: 72px;
+}
+.sec6-kolom1{
+    width: 75%;
+}
+.logo-partners img{
+    width: auto;
+    height: 25px;
+}
+footer{
+    width: 100vw;
+    height: 450px;
+    background-color: #19345E;
+    bottom: 0;
+    color:  white ;
+    font-size: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px){
+    .footer-link{
+        justify-content: center;
+    }
+    footer{
+        height: 600px;
+    }
+    .gambar-sec1{
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+    }
+    .gambar-sec1 img{
+        width: 400px;
+        height:400px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .proccess{
+        border-top: none;
+        border-left: 2px dashed var(--color1);
+        position: relative;
+        padding-left: 10%;
+        margin-top: 4%;
+        padding-top: 0px !important;
+    }
+    .proccess-4{
+        border-left: none;
+    }
+    .proccess::before{
+        content: '';
+        width: 24px;
+        height:24px;
+        background-color: var(--color1);
+        position: absolute;
+        top: 0;
+        left: -2%;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .content-sec4{
+        justify-content: center !important;
+    }
+    .gbr-sec4{
+        width: 300px;
+        height: 350px;
+        /* padding-right: 10px; */
+        align-self: center;
+        margin-top: 30px;
+    }
+    .headline h1{
+        font-size: 42px;
+    }
+
+    .gambar-sec1{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .kolom1 p{
+        font-size: 32px;
+    }
+ 
+}
+@media only screen and (max-width : 600px){
+    .sec6-kolom1{
+        width: 100% !important;
+    }
+    .gambar-sec1 img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width : 350px){
+    .sec6-kolom1{
+        width: 100%;
+    }
+    .section-keenam .container{
+        /* padding: 0px 0px !important; */
+        width: 100vw !important;
+    }
+}
+
+body {
+    background-color: #E7EBFC;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+
+.post p {
+    margin-left: 2rem;
+    font-weight: 500;
+font-size: 18px;
+line-height: 28px;  
+}
+
+.post span {
+    font-weight: 400;
+font-size: 16px;
+}
+
+.text-body h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+color: #19345E;
+}
+
+.text-body p {
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+}
+
+.btn-text {
+    background-color: #19345E;
+    color: white;
+    height: 56px;
+    width: 262px;
+    align-items: center;
+}
+
+.explore {
+    background-color: #19345E;
+    width: 262px;
+    height: 56px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.explore p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+}
+
+.card-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 32px;
+    gap: 30px;
+    height: 354px;
+    border-radius: 3px;
+}
+
+.card-style h5 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+color: #19345E;
+inline-size: max-content;
+}
+
+.card-style p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: left;
+/* or 162% */
+letter-spacing: -0.29px;
+/* Base/Text Primary */
+
+color: #19345E
+}
+
+.background {
+    background-color: white;
+}
+
+.th-h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+text-align: left;
+/* or 124% */
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.th-h3 p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.43px;
+
+/* Color/Grey/100 */
+
+color: #1A1A1A;
+}
+
+.th-h3 span {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: -0.29px;
+
+/* Color/Grey/60 */
+
+color: #767676;
+}
+
+.logo-style {
+    border-radius: 50px;
+    background-color: #E7EBFC;
+}
+
+.artist-font {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.433333px;
+
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.artist-font span {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.361111px;
+
+/* Base/Text Secondary */
+
+color: #1E1E1E;
+}
+
+.h1-bottom {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 62px;
+/* or 119% */
+
+text-align: center;
+letter-spacing: -0.94px;
+
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.h1-bottom p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+text-align: center;
+letter-spacing: -0.32px
+}
+
+.btn-book {
+    border: none;
+    background-color: #19345E;
+    color: white;
+    width: 198px;
+    height: 56px;
+}
+
+.backward, .forward{
+    width: 48px;
+    height: 48px;
+    background-color: var(--color2);
+}
+
+.backward img, .forward img{
+    width: 40px;
+}
