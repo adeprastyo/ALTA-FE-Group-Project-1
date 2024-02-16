@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+.text-custom1 {
+  color: #19345e;
+}
+
+.bg-custom1 {
+  background-color: #19345e;
+}
+
+.bg-custom2 {
+  background-color: #e7ebfc;
+}
+
+.fw-custom-400 {
+  font-weight: 400;
+}
+
+.fw-custom-500 {
+  font-weight: 500;
+}
+
+.fw-custom-700 {
+  font-weight: 700;
+}
+
+/* mobile */
+.header-section1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.desc-section1 {
+  text-align: justify;
+}
+
+.benefit-headline {
+  font-size: 2rem;
+}
+
+.benefit-desc2 {
+  font-size: 1.3rem;
+}
+
+.benefit-button {
+  font-size: 0.8rem;
+}
+
+.section3-header {
+  font-size: 2rem;
+}
+
+.section3-item-header {
+  font-size: 1.5rem;
+}
+
+.section3-item-desc {
+  font-size: 1rem;
+}
+
+.section4-header {
+  font-size: 1.7rem;
+}
+
+.section4-desc {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.6rem;
+}
+
+.section4-button {
+  font-size: 0.7rem;
+}
+
+.section5-header {
+  font-size: 2rem;
+}
+
+.section5-point {
+  width: 10px;
+  height: 10px;
+}
+
+.section5-desc {
+  font-size: 1rem;
+}
+
+.section6-header {
+  font-size: 1.7rem;
+}
+
+.section6-desc {
+  font-size: 1rem;
+}
+
+.section6-line {
+  border: 1px solid #9e9e9e;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .desc-section1 {
+    text-align: justify;
+  }
+
+  .benefit-headline {
+    font-size: 3rem;
+  }
+
+  .benefit-desc {
+    font-size: 2rem;
+  }
+
+  .benefit-desc2 {
+    font-size: 2rem;
+  }
+
+  .benefit-button {
+    font-size: 1.2rem;
+  }
+
+  .section3-header {
+    font-size: 3rem;
+  }
+
+  .section3-item-header {
+    font-size: 2rem;
+  }
+
+  .section3-item-desc {
+    font-size: 1.5rem;
+  }
+
+  .section4-header {
+    font-size: 2.2rem;
+  }
+
+  .section4-desc {
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 2.2rem;
+  }
+
+  .section4-button {
+    font-size: 1.2rem;
+  }
+
+  .section5-header {
+    font-size: 3rem;
+  }
+
+  .section5-point {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section5-desc {
+    font-size: 1.5rem;
+  }
+
+  .section6-header {
+    font-size: 2.2rem;
+  }
+
+  .section6-desc {
+    font-size: 1.5rem;
+  }
+
+  .section6-line {
+    border: 2px solid #9e9e9e;
+  }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  .header-section1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #19345e;
+  }
+
+  .desc-section1 {
+    font-weight: 400;
+    text-align: start;
+  }
+
+  .benefit-desc {
+    font-size: 1rem;
+  }
+
+  .benefit-desc2 {
+    font-size: 1.3rem;
+  }
+
+  .benefit-button {
+    font-size: 1rem;
+  }
+
+  .section3-header {
+    font-size: 3.5rem;
+  }
+
+  .section3-item-header {
+    font-size: 1.7rem;
+  }
+
+  .section3-item-desc {
+    font-size: 0.9rem;
+  }
+
+  .section4-header {
+    font-size: 2.8rem;
+  }
+
+  .section4-desc {
+    font-size: 2.5rem;
+    text-align: start;
+    line-height: 3rem;
+  }
+
+  .section4-button {
+    font-size: 1.1rem;
+  }
+
+  .section5-header {
+    font-size: 2.5rem;
+  }
+
+  .section5-point {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section5-desc {
+    font-size: 1rem;
+  }
+
+  .section6-header {
+    font-size: 3rem;
+  }
+
+  .section6-desc {
+    font-size: 1.1rem;
+  }
+
+  .section6-line {
+    border: 3px solid #9e9e9e;
+  }
+}

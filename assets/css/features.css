@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+a {
+  text-decoration: none !important;
+}
+
+.text-custom1 {
+  color: #19345e;
+}
+
+.bg-custom1 {
+  background-color: #19345e;
+}
+
+.bg-custom2 {
+  background-color: #e7ebfc;
+}
+
+.border-custom {
+  border: 2px solid #19345e;
+}
+
+.section1-header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section1-quote {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.section1-button {
+  font-size: 0.6rem;
+}
+
+.section1-button-arrow {
+  font-size: 1rem;
+}
+
+.section2-header {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.section2-subheader {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section2-info-number {
+  font-size: 2rem;
+}
+
+.section2-info-category {
+  font-size: 0.9rem;
+}
+
+.section3-header {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.img-bg {
+  background-image: url("../images/stock_photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.img-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #19345e;
+  opacity: 0.5;
+}
+
+.img-bg2 {
+  display: none;
+}
+
+.z-index {
+  z-index: 99;
+}
+
+.section3-desc {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.section3-button {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section4-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.section4-desc {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section5-row1 {
+  font-size: 1.1rem;
+}
+
+.section5-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.section5-img {
+  width: 50%;
+  height: 180px;
+}
+
+.section5-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.section5-role {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.section6-header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section6-step-header {
+  font-weight: 700;
+}
+
+.section7-header {
+  font-size: 1.7rem;
+}
+
+.section7-desc {
+  font-size: 1rem;
+}
+
+.section7-line {
+  border: 1px solid #9e9e9e;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .section1-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .section1-quote {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .section1-button {
+    font-size: 0.9rem;
+  }
+
+  .section1-button-arrow {
+    font-size: 1.5rem;
+  }
+
+  .section2-header {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .section2-subheader {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .section2-info-number {
+    font-size: 3rem;
+  }
+
+  .section2-info-category {
+    font-size: 1.2rem;
+  }
+
+  .section3-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .section3-desc {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  .section3-button {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .section4-header {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  .section4-desc {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .img-bg2 {
+    display: none;
+  }
+
+  .section5-row1 {
+    font-size: 1.4rem;
+  }
+
+  .section5-header {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .section5-img {
+    width: 40%;
+    height: 280px;
+  }
+
+  .section5-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .section5-role {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .section6-header {
+    font-size: 3.3rem;
+    font-weight: 700;
+  }
+
+  .section6-step-header {
+    font-weight: 700;
+  }
+
+  .section7-header {
+    font-size: 2.2rem;
+  }
+
+  .section7-desc {
+    font-size: 1.5rem;
+  }
+
+  .section7-line {
+    border: 2px solid #9e9e9e;
+  }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  .section1-header {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .section1-quote {
+    font-size: 1.65rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .section1-button {
+    font-size: 1rem;
+  }
+
+  .section1-button-arrow {
+    font-size: 1.9rem;
+  }
+
+  .section2-header {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .section2-subheader {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .section2-info-number {
+    font-size: 3rem;
+  }
+
+  .section3-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .section3-desc {
+    font-size: 1.3rem;
+  }
+
+  .section3-button {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .section4-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .section4-desc {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .img-bg2 {
+    display: block;
+    background-image: url("../images/Rectangle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+  }
+
+  .section5-row1 {
+    font-size: 1.2rem;
+  }
+
+  .section5-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .section5-img {
+    width: 100%;
+    height: 380px;
+  }
+
+  .section5-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .section5-role {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .section6-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .section7-header {
+    font-size: 3rem;
+  }
+
+  .section7-desc {
+    font-size: 1.1rem;
+  }
+
+  .section7-line {
+    border: 3px solid #9e9e9e;
+  }
+}
